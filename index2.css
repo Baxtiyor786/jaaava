@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+.card {
+    width: 280px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #eee;
+    margin: 0 auto 10px;
+}
+.stars {
+    color: gold;
+    font-size: 20px;
+}
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.details {
+    font-size: 14px;
+    color: gray;
+}
+.points {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    background: #ff6600;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
